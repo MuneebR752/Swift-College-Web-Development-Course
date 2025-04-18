@@ -1,0 +1,15 @@
+1.  Prompt the user to enter a number
+    Check and display whether the number is positive or negative
+
+2.  Prompt the user to enter a number
+    Use % to check if it's even or odd and display a message
+
+3.  Ask user for age
+    If age is 18 or more, display "Eligible to vote"
+    Otherwise, display "Not eligible to vote"
+
+4.  Ask user to enter two numbers
+    Display which number is greater, or if they are equal
+
+5.  Ask for marks out of 100
+    Display grade: A (>=90), B (>=80), C (>=70), D (>=60), F (below 60)

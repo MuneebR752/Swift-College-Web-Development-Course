@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      @media screen and (max-width: 600px) {
+        .box1 {
+          background-color: yellow !important;
+        }
+        .box2 {
+          background-color: black !important;
+        }
+        .box3 {
+          background-color: brown !important;
+        }
+      }
+
+      .box {
+        height: 250px;
+        width: 250px;
+        padding: 15px;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .box1 {
+        background-color: red;
+        color: white;
+      }
+      .box2 {
+        background-color: green;
+        color: white;
+      }
+      .box3 {
+        background-color: blue;
+        color: white;
+      }
+
+      .outer-box {
+        /* border: 3px solid darkmagenta; */
+      }
+
+      .outer-box1 {
+        display: flex;
+        justify-content: start;
+      }
+      .outer-box2 {
+        display: flex;
+        justify-content: center;
+      }
+      .outer-box3 {
+        display: flex;
+        justify-content: end;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="outer-box outer-box1">
+        <div class="box box1">
+          <h4>Lorem ipsum dolor sit amet.</h4>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+          voluptatem, nam unde voluptas pariatur cumque id molestiae inventore
+          iure eos odit, facere recusandae. Delectus repellat iste sequi fugiat
+          illo dicta!
+        </div>
+      </div>
+      <div class="outer-box outer-box2">
+        <div class="box box2">
+          <h4>Lorem ipsum dolor sit amet.</h4>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+          voluptatem, nam unde voluptas pariatur cumque id molestiae inventore
+          iure eos odit, facere recusandae. Delectus repellat iste sequi fugiat
+          illo dicta!
+        </div>
+      </div>
+      <div class="outer-box outer-box3">
+        <div class="box box3">
+          <h4>Lorem ipsum dolor sit amet.</h4>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+          voluptatem, nam unde voluptas pariatur cumque id molestiae inventore
+          iure eos odit, facere recusandae. Delectus repellat iste sequi fugiat
+          illo dicta!
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

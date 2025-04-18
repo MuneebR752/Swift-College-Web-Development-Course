@@ -1,0 +1,89 @@
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+.header .logo-container .logo {
+  width: 150px;
+}
+
+.nav-container ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-container ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-container ul li button {
+  font-family: "Space Grotesk", sans-serif;
+  background: none;
+  border: 1px solid #191a23;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+
+.nav-container ul li button:hover {
+  color: white;
+  background-color: #191a23;
+}
+
+.hero-section {
+  display: flex;
+  padding: 10px 40px;
+  gap: 30px;
+}
+
+.hero-section .hero-content-container {
+  width: 50%;
+}
+
+.hero-section .hero-content-container h1 {
+  font-size: 60px;
+}
+.hero-section .hero-content-container p {
+  font-size: 20px;
+}
+.hero-section .hero-content-container button {
+  font-size: 18px;
+  font-family: "Space Grotesk", sans-serif;
+  background: #191a23;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: none;
+}
+
+.hero-section .hero-image-container {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.hero-section .hero-image-container img {
+  width: 500px;
+}
+
+.logos-section {
+  padding: 40px;
+}
+
+.logos-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logos-container img {
+  width: 90px;
+}

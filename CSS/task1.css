@@ -1,0 +1,16 @@
+h1 {
+  color: #800020;
+}
+
+p {
+  color: rgb(0, 0, 246);
+}
+
+a {
+  color: rgb(0, 0, 246);
+}
+
+a:hover {
+  color: red;
+  font-family: "Roboto", sans-serif;
+}

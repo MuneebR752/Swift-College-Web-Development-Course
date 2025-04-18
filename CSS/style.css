@@ -1,0 +1,41 @@
+.box {
+  width: 300px;
+  height: 200px;
+  background-color: black;
+}
+
+.box1 {
+  background-color: rgb(246, 0, 0);
+}
+
+.box2 {
+  background-color: green;
+}
+
+.box3 {
+  background-color: blue;
+}
+
+.box1 p {
+  color: yellow;
+}
+
+.box2 p {
+  color: white;
+}
+.box3 p {
+  color: red;
+}
+
+p {
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+  /* font-size: 28px; */
+  font-weight: 700;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}

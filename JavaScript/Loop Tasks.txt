@@ -1,0 +1,7 @@
+Task 1: Print Numbers from 10 to 1
+
+Task 2: Print Even Numbers from 1 to 20
+
+Task 3: Input a Number from User & Print it's Table
+
+Task 4: Print Sum of First 10 Numbers

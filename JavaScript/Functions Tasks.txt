@@ -1,0 +1,11 @@
+
+
+Write a function to find the square of a number.
+
+Create a function that checks if a number is even or odd.
+
+Write a function that returns the maximum of two numbers.
+
+Function to convert Celsius to Fahrenheit.
+
+Create a function that returns the factorial of a number.

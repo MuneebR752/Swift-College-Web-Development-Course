@@ -18,7 +18,13 @@ function calculateArea(l, w) {
   document.writeln("<br> Your area is " + area);
 }
 
-let l = prompt("Enter Length");
-let w = prompt("Enter Width");
+// let l = prompt("Enter Length");
+// let w = prompt("Enter Width");
 
-calculateArea(l, w);
+// calculateArea(l, w);
+
+function square(num) {
+  let x = num * num;
+  document.writeln(x);
+}
+square(1600);

@@ -1,0 +1,15 @@
+Full Name – (required, minimum 3 characters)
+
+Email – (required, valid format)
+
+Password – (required, min 8 characters)
+
+Age – (required, numeric, between 18 and 40)
+
+Gender – (radio buttons, required)
+
+Hobbies – (at least one checkbox must be selected)
+
+Country – (dropdown, must select a country other than “Select”)
+
+Bio – (textarea, optional but max 200 characters)

@@ -38,3 +38,10 @@ changeBgBtn.addEventListener("click", function () {
     body.style.backgroundColor = "yellow";
   }
 });
+
+function changeToBlue() {
+  document.body.style.backgroundColor = "blue";
+}
+function changeToWhite() {
+  document.body.style.backgroundColor = "white";
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <style>
+      .errorMsgs {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Form Validation</h1>
+
+    <form id="registrationForm">
+      <label for="name">Full Name : </label>
+      <input type="text" name="name" id="name" />
+      <div id="nameErrorMsg" class="errorMsgs"></div>
+      <br /><br />
+
+      <label for="email">Email : </label>
+      <input type="email" name="email" id="email" />
+
+      <br /><br />
+
+      <label for="password">Password : </label>
+      <input type="password" name="password" id="password" />
+
+      <br /><br />
+
+      <label for="age">Age : </label>
+      <input type="number" name="age" id="age" />
+
+      <br /><br />
+
+      <label for="country">Select Country : </label>
+      <select name="country" id="country">
+        <option value="pakistan">Pakistan</option>
+        <option value="china">China</option>
+        <option value="uae">UAE</option>
+      </select>
+
+      <br /><br />
+      <label for="bio">Bio : </label>
+      <textarea name="bio" id="bio"></textarea>
+
+      <br />
+      <br />
+
+      <button type="submit">Submit</button>
+    </form>
+    <script src="./fromValidation.js"></script>
+  </body>
+</html>
